@@ -899,6 +899,7 @@
 
 ## Vue 
 
+- [cnodejs-vue](https://github.com/beilunyang/cnodejs-vue) - cnodejs vue版，使用vuejs + vue-cli + vue-router + vuex
 - [vux](https://github.com/airyland/vux) - Mobile web UI Components based on Vue and WeUI. Be Cool with Vue & WeUI.
 - [eme](https://github.com/egoist/eme) - Elegant Markdown Editor.
 
