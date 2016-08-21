@@ -5,11 +5,911 @@
 
 ## Contents
 
+  - [C](#c)
+  - [C#](#c#)
+  - [C++](#c++)
+  - [CMake](#cmake)
+  - [CSS](#css)
+  - [Clojure](#clojure)
+  - [CoffeeScript](#coffeescript)
+  - [Emacs Lisp](#emacs lisp)
+  - [Erlang](#erlang)
+  - [FORTRAN](#fortran)
+  - [Go](#go)
+  - [HTML](#html)
+  - [Haskell](#haskell)
+  - [Java](#java)
+  - [JavaScript](#javascript)
+  - [Jupyter Notebook](#jupyter notebook)
+  - [Makefile](#makefile)
+  - [Objective-C](#objective-c)
+  - [Objective-C++](#objective-c++)
+  - [Others](#others)
+  - [PHP](#php)
+  - [Perl](#perl)
+  - [Python](#python)
+  - [Ruby](#ruby)
+  - [Rust](#rust)
+  - [Scheme](#scheme)
+  - [Shell](#shell)
+  - [Smarty](#smarty)
+  - [Swift](#swift)
+  - [TeX](#tex)
+  - [TypeScript](#typescript)
+  - [VimL](#viml)
+  - [Vue](#vue)
+  - [Yacc](#yacc)
+
+## C 
+
+- [zfs](https://github.com/zfsonlinux/zfs) - ZFS on Linux - the official OpenZFS implementation for Linux.
+- [FFmpeg](https://github.com/FFmpeg/FFmpeg) - mirror of git://source.ffmpeg.org/ffmpeg.git
+- [glusterfs](https://github.com/gluster/glusterfs) - Gluster Filesystem - (this is only a public mirror, see the README for contributing)
+- [simplest_ffmpeg_mobile](https://github.com/leixiaohua1020/simplest_ffmpeg_mobile) - ffmpeg examples in Android / IOS / WinPhone
+- [util-linux](https://github.com/karelzak/util-linux) - backup upstream repository
+- [sshfs](https://github.com/libfuse/sshfs) - A network filesystem client to connect to SSH servers
+- [macfuse](https://github.com/macfuse/macfuse) - The Easiest and Fastest Way to Create File Systems for Mac OS X
+- [sshfs](https://github.com/osxfuse/sshfs) - File system based on the SSH File Transfer Protocol
+- [dokany](https://github.com/dokan-dev/dokany) - User mode file system library for windows with FUSE Wrapper
+- [fuse-nfs](https://github.com/sahlberg/fuse-nfs) - A FUSE module for NFSv3
+- [libfuse](https://github.com/libfuse/libfuse) - The reference implementation of the Linux FUSE (Filesystem in Userspace) interface
+- [30dayMakeOS](https://github.com/yourtion/30dayMakeOS) - 《30天自制操作系统》源码中文版。自己制作一个操作系统（OSASK）的过程
+- [yasea](https://github.com/begeekmyfriend/yasea) - RTMP streaming client for Android
+- [nfs-ganesha](https://github.com/eshelmarc/nfs-ganesha) - NFS-Ganesha, a NFSv2/NFSv3/NFSv4.x server in User Space
+- [LC-Finder](https://github.com/lc-soft/LC-Finder) - A simple resource manager, support tag search and thumbnail preview.
+- [libcrush](https://github.com/xanpeng/libcrush) - Crush algorithm from Ceph (http://ceph.com/)
+- [libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
+- [libnfs-python](https://github.com/sahlberg/libnfs-python) - Python bindings for libnfs
+- [fping](https://github.com/schweikert/fping) - high performance ping tool
+- [sigar](https://github.com/hyperic/sigar) - System Information Gatherer And Reporter
+- [NFStash](https://github.com/mprovost/NFStash) - NFS client CLI toolkit
+- [libnfs](https://github.com/sahlberg/libnfs) - NFS client library
+- [linux_logo](https://github.com/deater/linux_logo) - Prints an ASCII logo and some system info
+- [hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis &gt;= 1.2
+- [json-c](https://github.com/jehiah/json-c) - Official code repository for json-c http://oss.metaparadigm.com/json-c/
+- [multipath-tools](https://github.com/goodwinos/multipath-tools) - device-mapper-multipath
+- [mptcp](https://github.com/multipath-tcp/mptcp) - Linux Kernel implementation of MultiPath TCP
+- [corosync](https://github.com/corosync/corosync) - The Corosync Cluster Engine
+- [openwrt](https://github.com/openwrt-mirror/openwrt) - Mirror of the OpenWRT repository
+- [tmux](https://github.com/tmux/tmux) - tmux source code
+- [libsodium](https://github.com/jedisct1/libsodium) - A modern and easy-to-use crypto library.
+- [AES](https://github.com/BrianGladman/AES) - AES code
+- [Paxos](https://github.com/oilbeater/Paxos) - The  implementation of paxos
+- [redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
+- [redlock-cpp](https://github.com/jacket-code/redlock-cpp) - C++实现redis分布式锁(Redlock Redis-based distributed locks implementation in C++)
+- [luna](https://github.com/tj/luna) - luna programming language - a small, elegant VM implemented in C
+- [premake-core](https://github.com/premake/premake-core) - Premake
+- [ntirpc](https://github.com/linuxbox2/ntirpc) - New development on tirpc
+- [tinyre](https://github.com/fy0/tinyre) - A light fork of python's regex engine.
+- [pifs](https://github.com/philipl/pifs) - πfs - the data-free filesystem!
+- [libgfapi](https://github.com/anandsu/libgfapi) - New glusterfs libgfapi which is handle(gfid/inode)-based for use in nfs-ganesha FSAL_GLUSTER
+- [pacemaker](https://github.com/ClusterLabs/pacemaker) - Pacemaker is an advanced, scalable High-Availability cluster resource manager
+- [macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
+- [gbox](https://github.com/waruqi/gbox) - A multi-platform graphic library
+- [xmake](https://github.com/waruqi/xmake) - A make-like build utility based on Lua
+- [ntirpc](https://github.com/nfs-ganesha/ntirpc) - New development on tirpc
+- [fio](https://github.com/axboe/fio) - Flexible I/O Tester
+- [coreutils](https://github.com/coreutils/coreutils) - Upstream mirror
+- [tinyhttpd](https://github.com/ysboss/tinyhttpd) - tinyhttpd是一个超轻量型Http Server，使用C语言开发，全部代码只有502行(包括注释)，附带一个简单的Client，可以通过阅读这段代码理解一个 Http Server 的本质。
+- [tinyhttpd](https://github.com/cbsheng/tinyhttpd) - tinyhttpd的详细注释版，十分适合入门者学习的一个项目
+- [CMake](https://github.com/Kitware/CMake) - CMake, the cross-platform, open-source build system.
+- [tbox](https://github.com/waruqi/tbox) - A glib-like multi-platform c library
+- [nfs-ganesha](https://github.com/nfs-ganesha/nfs-ganesha) - NFS-Ganesha is an NFSv3,v4,v4.1 fileserver that runs in user mode on most UNIX/Linux systems
+- [Gizwits-GAgent](https://github.com/gizwits/Gizwits-GAgent) - Gizwits-GAgent作为机智云物联网整体解决方案中可入网设备（如WiFi模组、GPRS模组）接入部分，是一套运行在可入网模组（如WiFi模组、GPRS模组）上，使用机智云协议接入机智云平台，并与手机APP（SDK）通信、下位机控制设备终端MCU通信的程序。该程序运行在X86 PC硬件平台，基于linux操作系统。 通过该程序，开发者可快速移植机智云协议到不同可入网模组（如WiFi模组、GPRS模组）上。
+- [gokit-mcu-hw2](https://github.com/gizwits/gokit-mcu-hw2) - 
+- [mykernel](https://github.com/mengning/mykernel) - It is a platform to write your own OS kernel,its based on Linux Kernel 3.9.4 source code.
+- [u-boot-sunxi](https://github.com/linux-sunxi/u-boot-sunxi) - Allwinner A1x native u-boot support
+- [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) - libev port of shadowsocks
+- [The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July) - 本github已于14年6月基本停止更新，完整精致的纸质版《编程之法：面试和算法心得》已在京东/当当上销售！
+- [dm8168](https://github.com/willisyi/dm8168) - dm8168 dvrrdk demo modify
+- [c-terminal](https://github.com/sintrb/c-terminal) - 一些标准终端命令的封装，用于单片机的调试输出和终端程序开发
+- [Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
+- [sys_server](https://github.com/willisyi/sys_server) - DM8168 system server sources.
+- [LiveServer](https://github.com/willisyi/LiveServer) - wistreamer for DM8168,Modifyed to fit my own dvrrdk!
+- [ACLLib](https://github.com/wengkai/ACLLib) - ACLLib is a bunch of C functions covers Win32API and provides simpler API to beginners for programming Windows GUI applications. It compiles with MinGW and MS Visual Studio Express
+- [firefox-ios](https://github.com/mozilla/firefox-ios) - Firefox for iOS
+- [ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module) - Nginx Module for Google Mirror
+- [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) - NGINX-based Media Streaming Server
+- [Linux_SourceCode](https://github.com/swiftboard/Linux_SourceCode) - linux source code and some tools
+
+## C# # 
+
+- [cli](https://github.com/dotnet/cli) - This repo contains the .NET Core command-line (CLI) tools, used for building .NET Core apps and libraries through your development flow (compiling, NuGet package management, running, testing, ...).
+- [corefx](https://github.com/dotnet/corefx) - This repo contains the .NET Core foundational libraries, called CoreFX. It includes classes for collections, file systems, console, XML, async and many others.
+- [QSunSync](https://github.com/qiniu/QSunSync) - 七牛云文件同步图形化工具－Windows版本
+- [NFS](https://github.com/petebarber/NFS) - C# .NET NFS Server
+- [DocNet](https://github.com/FransBouma/DocNet) - Your friendly static documentation generator, using markdown files to build the content.
+- [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP).
+- [CefSharp](https://github.com/cefsharp/CefSharp) - .NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework
+- [ShareX](https://github.com/ShareX/ShareX) - ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to over 80 supported destinations you can choose from.
+- [Wox](https://github.com/Wox-launcher/Wox) - Launcher for Windows, an alternative to Alfred and Launchy.
+
+## C++ 
+
+- [Luves](https://github.com/Leviathan1995/Luves) - 轻量级的事件触发网络库
+- [fibjs](https://github.com/xicilion/fibjs) - JavaScript on Fiber (based on Chrome V8 engine)
+- [visp](https://github.com/lagadic/visp) - Open Source Visual Servoing Platform
+- [fuse-bindings](https://github.com/mafintosh/fuse-bindings) - Fully maintained FUSE bindings for Node that aims to cover the entire FUSE api
+- [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) - FUSE-based file system backed by Amazon S3
+- [nmap](https://github.com/nmap/nmap) - Nmap - the Network Mapper. Github mirror of official SVN repository.
+- [webcpps](https://github.com/webcpp/webcpps) - 基于C++ Poco框架的HTTP静态服务器
+- [webcppd](https://github.com/webcpp/webcppd) - 基于C++ Poco框架的HTTP动态服务器
+- [cryptopp](https://github.com/weidai11/cryptopp) - 
+- [CodeTricks](https://github.com/xiaopeifeng/CodeTricks) - 一些奇技淫巧，just for fun
+- [yaml-cpp](https://github.com/jbeder/yaml-cpp) - A YAML parser and emitter in C++
+- [ctoml](https://github.com/evilncrazy/ctoml) - Fast TOML parser written in C++
+- [rapidjson](https://github.com/miloyip/rapidjson) - A fast JSON parser/generator for C++ with both SAX/DOM style API
+- [json](https://github.com/nlohmann/json) - JSON for Modern C++
+- [jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
+- [python-libconfig](https://github.com/cnangel/python-libconfig) - Python bindings to the C++ library libconfig
+- [tensorflow](https://github.com/tensorflow/tensorflow) - Computation using data flow graphs for scalable machine learning
+- [tera](https://github.com/baidu/tera) - A distributed, elastic, structured database.
+- [libcef3](https://github.com/chenlian2015/libcef3) - libcef3
+- [cef2go](https://github.com/cztomczak/cef2go) - CEF2go is an HTML 5 based GUI toolkit for the Go language.  ★ Forum:
+- [CS_Offer](https://github.com/xuelangZF/CS_Offer) - 计算机学科基础知识和主流编程语言相关内容的总结
+- [QConf](https://github.com/Qihoo360/QConf) - Qihoo Distributed Configuration Management System
+- [tinymoe](https://github.com/vczh/tinymoe) - English-like dynamic typing programming language
+- [protobuf](https://github.com/google/protobuf) - Protocol Buffers - Google's data interchange format
+- [lnav](https://github.com/tstack/lnav) - Log file navigator
+- [libmdcpp](https://github.com/sadhen/libmdcpp) - implementation of the Markdown markup language in CPP (library)
+- [marketo](https://github.com/sadhen/marketo) - A note-taking KDE application with the power of lightweight markup language
+- [kaldi](https://github.com/kaldi-asr/kaldi) - This is now the official location of the Kaldi project.
+- [ceph](https://github.com/ceph/ceph) - Ceph is a distributed object, block, and file storage platform
+- [linux-book](https://github.com/xiyou-linuxer/linux-book) - linux系统编程指南
+- [ninja](https://github.com/ninja-build/ninja) - a small build system with a focus on speed
+- [swift](https://github.com/apple/swift) - The Swift Programming Language
+- [leveldb](https://github.com/google/leveldb) - LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+- [liteide](https://github.com/visualfc/liteide) - LiteIDE is a simple, open source, cross-platform Go IDE.
+- [muduo-tutorial](https://github.com/chenshuo/muduo-tutorial) - Tutorial of Muduo network library
+- [4](https://github.com/4Lang/4) - A completely emoji-based programming language
+- [boost_tutorial](https://github.com/zddhub/boost_tutorial) - A simple useful tutorial of boost
+- [GoKit-Arduino-MCU](https://github.com/gizwits/GoKit-Arduino-MCU) - 
+- [electron](https://github.com/electron/electron) - Build cross platform desktop apps with JavaScript, HTML, and CSS
+- [jsonnet](https://github.com/google/jsonnet) - Jsonnet - The data templating language
+- [Cplusplus-Concurrency-In-Practice](https://github.com/forhappy/Cplusplus-Concurrency-In-Practice) - A Detailed Cplusplus Concurrency Tutorial 《C++ 并发编程指南》
+- [rapidjson](https://github.com/TencentOpen/rapidjson) - A fast JSON parser/generator for C++ with both SAX/DOM style API
+- [muduo](https://github.com/chenshuo/muduo) - A C++ non-blocking network library for multi-threaded server in Linux
+- [shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5) - A cross-platform shadowsocks GUI client
+- [doubanfm-qt](https://github.com/zonyitoo/doubanfm-qt) - A DoubanFM client
+- [node-lame](https://github.com/TooTallNate/node-lame) - Node.js native bindings to libmp3lame & libmpg123
+- [thrust](https://github.com/breach/thrust) - Chromium-based cross-platform / cross-language application framework
+- [nw.js](https://github.com/nwjs/nw.js) - Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.
+- [SampleGame-EarthWarrior3D](https://github.com/chukong/SampleGame-EarthWarrior3D) - 
+- [CrossApp](https://github.com/9miao/CrossApp) - Cross-Platform Mobile APP Development Engine
+
+## CMake 
+
+- [CMake](https://github.com/Eyescale/CMake) - Common CMake modules
+
+## CSS 
+
+- [Farbox-NexT](https://github.com/Sunnyyoung/Farbox-NexT) - A hexo theme NexT for Farbox
+- [qmui_web](https://github.com/QMUI/qmui_web) - 腾讯 QMUI Web 前端框架
+- [doc-util](https://github.com/amazeui/doc-util) - Amaze UI Markdown docs parsing util.
+- [Sources](https://github.com/vulgur/Sources) - Sources is a simplified github client for reading the source code easily and comfortably.
+- [lcthw-zh](https://github.com/wizardforcel/lcthw-zh) - :book: 【译】笨办法学C
+- [progit2-zh](https://github.com/progit/progit2-zh) - 
+- [octopux-swcollector](https://github.com/baishancloud/octopux-swcollector) - 
+- [docs](https://github.com/leancloud/docs) - LeanCloud Documentation
+- [wilddog-doc](https://github.com/WildDogTeam/wilddog-doc) - wilddog document.   https://z.wilddog.com
+- [solar-theme-ghost](https://github.com/mattvh/solar-theme-ghost) - A Ghost port of my previous Jekyll theme, which is based on the Solarized color palette
+- [progit2](https://github.com/progit/progit2) - Pro Git 2nd Edition
+- [hexo-theme-yelee](https://github.com/MOxFIVE/hexo-theme-yelee) - 简而不减 Hexo 双栏博客主题; Another simple and elegant theme for Hexo.
+- [hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia) - 一个简洁优雅的hexo主题 ; A simple and elegant theme for hexo.
+- [maupassant-hexo](https://github.com/tufu9441/maupassant-hexo) - A simple Hexo theme forked from icylogic.
+- [hexo-theme-next](https://github.com/iissnan/hexo-theme-next) - Elegant theme for Hexo.
+- [lightum](https://github.com/zippera/lightum) - A hexo theme improved from Light.
+- [gosk-theme](https://github.com/scottkiss/gosk-theme) - custom themes for gosk generator
+- [fexo](https://github.com/forsigner/fexo) - A minimalist design theme for hexo.
+- [mdnote](https://github.com/int64ago/mdnote) - :ledger: A cloud notepad
+- [jstips](https://github.com/loverajoel/jstips) - This is about useful JS tips!
+- [docs](https://github.com/pholcus/docs) - Pholcus 完全手册。
+- [blog](https://github.com/shendl1978/blog) - blog
+- [code](https://github.com/douban/code) - Douban CODE
+- [cool-head](https://github.com/hzlzh/cool-head) - A powerful and standard HTML &lt;head&gt; structure, just re-use it, cool~
+- [swcollector](https://github.com/gaochao1/swcollector) - 
+- [open-falcon.github.io](https://github.com/open-falcon/open-falcon.github.io) - open-falcon pages
+- [nanshu.wang](https://github.com/gardenia22/nanshu.wang) - This is my blog http://nanshu.wang, powered by Hugo.
+- [gohugo.org](https://github.com/coderzh/gohugo.org) - Site for http://www.gohugo.org/
+- [falcon-eye](https://github.com/UlricQin/falcon-eye) - linux monitor tool. an agent running on your host collect and display performance data. just like https://github.com/afaqurk/linux-dash
+- [MWeb-Themes](https://github.com/oulvhai/MWeb-Themes) - 
+- [gobyexample](https://github.com/mmcgrana/gobyexample) - Go by Example
+- [StrayBirds](https://github.com/minixalpha/StrayBirds) - Blog templates based on GitHub Pages
+- [minixalpha.github.io](https://github.com/minixalpha/minixalpha.github.io) - My blog based on Jeklly
+- [Farbtle](https://github.com/YCF/Farbtle) - A Farbox theme,Inspired by Svbtle.
+- [blog](https://github.com/waynezhang/blog) - just another blog
+- [amazeui](https://github.com/amazeui/amazeui) - Amaze UI, a mobile-first and modular front-end framework.
+- [doxmate](https://github.com/JacksonTian/doxmate) - 文档伴侣
+- [Mou-Theme](https://github.com/hzlzh/Mou-Theme) - GitHub ReadMe style for MarkDown editors like Mou.
+- [lanyon](https://github.com/mkaz/lanyon) - markdown web server
+- [material_design_zh](https://github.com/1sters/material_design_zh) - Material Design 中文协同翻译 - design.1sters.com
+- [google200](https://github.com/zjuyxy/google200) - 基于google custom search api的google搜索镜像
+- [ratchet](https://github.com/twbs/ratchet) - Build mobile apps with simple HTML, CSS, and JavaScript components.
+- [the-swift-programming-language-in-chinese](https://github.com/numbbbbb/the-swift-programming-language-in-chinese) - 中文版 Apple 官方 Swift 教程《The Swift Programming Language》
+- [flappy-html5-bird](https://github.com/ben7th/flappy-html5-bird) - 
+
+## Clojure 
+
+- [markright](https://github.com/dvcrn/markright) - ➡ Electron powered markdown editor with live preview
+- [LightTable](https://github.com/LightTable/LightTable) - The Light Table IDE
+
+## CoffeeScript 
+
+- [cirru-json](https://github.com/Cirru/cirru-json) - Converter between Cirru and JSON.
+- [talk-os](https://github.com/jianliaoim/talk-os) - Open source version of jianliao.com
+- [vimium](https://github.com/philc/vimium) - The hacker's browser.
+- [atom-godef](https://github.com/litgh/atom-godef) - Atom package, find definition under current cursor for golang using 'godef'
+- [aglio](https://github.com/danielgtaylor/aglio) - An API Blueprint renderer with theme support that outputs static HTML
+- [atom](https://github.com/atom/atom) - The hackable text editor
+
+## Emacs Lisp 
+
+- [emacs.d](https://github.com/redguardtoo/emacs.d) - purcell's emacs configuration plus C/C++ support
+
+## Erlang 
+
+- [qetag](https://github.com/qiniu/qetag) - qetag
+- [helloerlang](https://github.com/jixiuf/helloerlang) - my   repos for erlang test code .
+
+## FORTRAN 
+
+- [hello-world](https://github.com/git/hello-world) - Hello world in every programming language
+
+## Go 
+
+- [go-bootstrap](https://github.com/go-bootstrap/go-bootstrap) - Generates a lean and mean Go web project.
+- [echo](https://github.com/labstack/echo) - Fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.
+- [hjson-go](https://github.com/hjson/hjson-go) - Hjson for Go
+- [go](https://github.com/Go-zh/go) - Go 编程语言中文翻译
+- [govendor](https://github.com/kardianos/govendor) - Go vendor tool that works with the standard vendor file.
+- [staticfiles](https://github.com/bouk/staticfiles) - staticfiles compiles a directory of files into an embeddable .go file
+- [go-logging](https://github.com/op/go-logging) - Golang logging library
+- [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
+- [glide](https://github.com/Masterminds/glide) - Package Management for Golang
+- [gopack](https://github.com/gobuild/gopack) - golang binary manager (list, install, pack to zip)
+- [v2ex-go](https://github.com/six-ddc/v2ex-go) - A simple V2EX client on terminal written in Go.
+- [go-sh](https://github.com/codeskyblue/go-sh) - like python-sh, for easy call shell with golang.
+- [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewares
+- [go-fuse](https://github.com/hanwen/go-fuse) - FUSE bindings for Go
+- [bazil](https://github.com/bazil/bazil) - Bazil is a file system that lets your data reside where it is most convenient for it to reside.
+- [fuse](https://github.com/jacobsa/fuse) - A Go package for implementing a FUSE file system.
+- [fuse](https://github.com/bazil/fuse) - FUSE library for Go.   go get bazil.org/fuse
+- [oauth2](https://github.com/go-oauth2/oauth2) - OAuth 2.0 server library for the Go programming language.
+- [go-ipfs](https://github.com/ipfs/go-ipfs) - IPFS implementation in go
+- [godocu](https://github.com/golang-china/godocu) - Godocu extracts and generates documentation for Go programs.
+- [go-msi](https://github.com/mh-cbon/go-msi) - Easy way to generate msi package for a Go project
+- [gform](https://github.com/AllenDang/gform) - Windows GUI framework for Go.
+- [zsocket](https://github.com/nathanjsweet/zsocket) - Zero-copy sockets for Linux in Golang
+- [daolinet](https://github.com/daolinet/daolinet) - The daolinet project for docker network
+- [grab](https://github.com/cavaliercoder/grab) - Go package for downloading large files from the internet
+- [gop2p](https://github.com/nacmartin/gop2p) - simple p2p project to learn go
+- [go-p2p](https://github.com/tendermint/go-p2p) - Golang P2P library
+- [dingo](https://github.com/dingoblog/dingo) - Blog engine written in Go (Looking for contributors)
+- [qt](https://github.com/therecipe/qt) - Qt binding for Go (Windows / Mac OS X / Linux / Android / iOS / Sailfish OS)
+- [go-ole](https://github.com/go-ole/go-ole) - win32 ole implementation for golang
+- [excel](https://github.com/aswjh/excel) - read and write excel files in go/golang
+- [task-system](https://github.com/zhoupingl/task-system) - Old任务队列-已废弃
+- [bmob-go-sdk](https://github.com/bmob/bmob-go-sdk) - Bmob Go SDK
+- [gg](https://github.com/fogleman/gg) - Go Graphics - 2D rendering in Go with a simple API.
+- [nfs](https://github.com/davecheney/nfs) - NFS client implementation for Golang
+- [flatmap](https://github.com/astaxie/flatmap) - flatmap transform nested map to flatten map
+- [webhook](https://github.com/qiniu/webhook) - Github.com webhook tools
+- [qshell](https://github.com/qiniu/qshell) - qshell是利用七牛文档上公开的API实现的一个方便开发者测试和使用七牛API服务的命令行工具。
+- [qreader](https://github.com/m3ng9i/qreader) - a browser-server based feed reader
+- [confl](https://github.com/lytics/confl) - Config parser for go, modeled after Nginx format, Nice lenient syntax with Comments
+- [myblog_article_code](https://github.com/polaris1119/myblog_article_code) - Go语言中文网博客中文章实例的源代码
+- [cfg](https://github.com/nwlucas/cfg) - Config Parsers library used in personal projects, written in Go
+- [cli](https://github.com/mkideal/cli) - CLI - A package for building command line app with go
+- [goim](https://github.com/Terry-Mao/goim) - goim
+- [bfs](https://github.com/Terry-Mao/bfs) - distributed file system(small file storage) writen by golang.
+- [journey](https://github.com/kabukky/journey) - A blog engine written in Go, compatible with Ghost themes.
+- [go-ps](https://github.com/mitchellh/go-ps) - Find, list, and inspect processes from Go (golang).
+- [redconf](https://github.com/gogap/redconf) - sync config from redis or others storage while the config values changed
+- [sciter](https://github.com/oskca/sciter) - Golang bindings of Sciter: the Embeddable HTML/CSS/script engine for modern UI development
+- [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
+- [xcgui](https://github.com/CodyGuo/xcgui) - golang - 炫彩界面库 windows ui
+- [govend](https://github.com/govend/govend) - A simple tool to vendor Go package dependencies. It's like "go get" for vendoring.
+- [harbor](https://github.com/vmware/harbor) - An enterprise-class container registry server based on Docker Distribution
+- [iris](https://github.com/kataras/iris) - The fastest web framework for Go in (THIS) Earth.
+- [consul](https://github.com/hashicorp/consul) - Consul is a tool for service discovery, monitoring and configuration.
+- [redsync.go](https://github.com/hjr265/redsync.go) - Redis-based distributed mutual exclusion lock implementation for Go
+- [etcd](https://github.com/coreos/etcd) - Distributed reliable key-value store for the most critical data of a distributed system
+- [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
+- [gosk](https://github.com/scottkiss/gosk) - gosk is a static site generator in Go,it's similar to jekyll
+- [locker](https://github.com/lobeck/locker) - This is a basic client/server system to lock files on the filesystem level
+- [lockfile](https://github.com/marcopeereboom/lockfile) - go package that manages filesystem locks.
+- [locker](https://github.com/jagregory/locker) - A distributed lock service in Go using etcd
+- [golangman](https://github.com/jackhu1990/golangman) - golangman是一个帮助具有其他语言开发经验的人快速上手golang的开源项目.
+- [go-fundamental-programming](https://github.com/Unknwon/go-fundamental-programming) - 《Go编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
+- [readline](https://github.com/chzyer/readline) - Readline is a pure go(golang) implementation for GNU-Readline kind library
+- [micro](https://github.com/micro/micro) - A microservice toolkit
+- [protobuf](https://github.com/golang/protobuf) - Go support for Google's protocol buffers
+- [goquery](https://github.com/PuerkitoBio/goquery) - A little like that j-thing, only in Go.
+- [rpc](https://github.com/qiniu/rpc) - Golang rpc client based on http
+- [rpc](https://github.com/gorilla/rpc) - A golang foundation for RPC over HTTP services.
+- [elvish](https://github.com/elves/elvish) - A novel Unix shell
+- [fzf](https://github.com/junegunn/fzf) - :cherry_blossom: A command-line fuzzy finder written in Go
+- [go-system-programming](https://github.com/astaxie/go-system-programming) - Go System Programming
+- [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus
+- [go-php](https://github.com/deuill/go-php) - PHP bindings for the Go programming language (Golang)
+- [qqwry](https://github.com/yinheli/qqwry) - 纯真 IP 库 golang 版
+- [qlang](https://github.com/qiniu/qlang) - Q Language (Q语言) - A script language for Go
+- [gvt](https://github.com/FiloSottile/gvt) - gvt is the go vendoring tool for the GO15VENDOREXPERIMENT, based on gb-vendor
+- [lantern](https://github.com/getlantern/lantern) - :zap: Open Internet for everyone. Lantern is a free application that delivers fast, reliable and secure access to the open Internet for users in censored regions. It uses a variety of techniques to stay unblocked, including domain fronting, p2p, and pluggable transports.
+- [seaweedfs](https://github.com/chrislusf/seaweedfs) - SeaweedFS is a simple and highly scalable distributed file system. There are two objectives:  to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
+- [wechat-deleted-friends](https://github.com/miraclesu/wechat-deleted-friends) - 查看被删的微信好友 Go 版
+- [memcached-ui](https://github.com/youngsterxyf/memcached-ui) - 为Memcached准备的一个Web UI
+- [gopy](https://github.com/go-python/gopy) - gopy generates a CPython extension module from a go package.
+- [mudoo](https://github.com/huangqingcheng/mudoo) - Go语言网络层的脚手架
+- [tsuru](https://github.com/tsuru/tsuru) - Open source, extensible and Docker-based Platform as a Service (PaaS).
+- [gocode](https://github.com/nsf/gocode) - An autocompletion daemon for the Go programming language
+- [daemon](https://github.com/takama/daemon) - A daemon package for use with Go (golang) services with no dependencies
+- [mysql](https://github.com/go-sql-driver/mysql) - Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang) database/sql package
+- [gotools](https://github.com/visualfc/gotools) - liteide golang tools
+- [win](https://github.com/lxn/win) - A Windows API wrapper package for the Go Programming Language
+- [walk](https://github.com/lxn/walk) - A Windows GUI toolkit for the Go Programming Language
+- [pholcus](https://github.com/henrylee2cn/pholcus) - [爬虫软件 (golang)] Pholcus（幽灵蛛）是一款纯Go语言编写的支持分布式的高并发、重量级爬虫软件，定位于互联网数据采集，为具备一定Go编程基础的人提供一个只需关注规则定制的功能强大的爬虫工具。  它支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；另外它还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。
+- [errcheck](https://github.com/kisielk/errcheck) - errcheck checks that you checked errors.
+- [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool
+- [leaf](https://github.com/name5566/leaf) - A game server framework in Go (golang)
+- [gobenchui](https://github.com/divan/gobenchui) - UI for overview of your Golang package benchmarks progress.
+- [go-ui](https://github.com/visualfc/go-ui) - golang ui
+- [color](https://github.com/fatih/color) - Color package for Go (golang)
+- [termui](https://github.com/gizak/termui) - Golang terminal dashboard
+- [jvm.go](https://github.com/zxh0/jvm.go) - A JVM written in Go
+- [goleveldb](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
+- [gopl.io](https://github.com/adonovan/gopl.io) - Example programs from "The Go Programming Language"
+- [gocaptcha](https://github.com/hanguofeng/gocaptcha) - A captcha service writen in golang
+- [blackfriday](https://github.com/russross/blackfriday) - Blackfriday: a markdown processor for Go
+- [cli](https://github.com/urfave/cli) - A simple, fast, and fun package for building command line apps in Go
+- [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle
+- [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go
+- [pugo](https://github.com/go-xiaohei/pugo) - a static site generator & deployer
+- [go-in-5-minutes](https://github.com/arschles/go-in-5-minutes) - Code for Go in 5 Minutes Screencasts
+- [docker](https://github.com/docker/docker) - Docker - the open-source application container engine
+- [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go
+- [sift](https://github.com/svent/sift) - A fast and powerful alternative to grep
+- [delve](https://github.com/derekparker/delve) - Delve is a debugger for the Go programming language.
+- [v2ray-core](https://github.com/v2ray/v2ray-core) - A platform for building proxies to bypass network restrictions.
+- [hugo](https://github.com/spf13/hugo) - A Fast and Flexible Static Site Generator built with love in GoLang
+- [go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
+- [gothic](https://github.com/nsf/gothic) - Tcl/Tk Go bindings
+- [go2o](https://github.com/jsix/go2o) - Golang基于DDD的o2o的业务模型及基础, 界面:http://github.com/jsix/go2o-web
+- [requesthub](https://github.com/kyledayton/requesthub) - Receive, Log, and Proxy HTTP requests
+- [golangdoc.translations](https://github.com/golang-china/golangdoc.translations) - Go语言文档翻译文件
+- [go-sdk](https://github.com/upyun/go-sdk) - UPYUN Go SDK
+- [go-static-server](https://github.com/ysugimoto/go-static-server) - Golang local static server for development
+- [daemonigo](https://github.com/tyranron/daemonigo) - A simple wrapper to daemonize Go applications.
+- [nwui](https://github.com/go-nwui/nwui) - node-webkit UI for Go
+- [hector](https://github.com/xlvector/hector) - Golang machine learning lib
+- [goShop](https://github.com/Ivan8R/goShop) - small shop in go lang
+- [goshop](https://github.com/rofrol/goshop) - Shopping cart in Go
+- [go-rubychina](https://github.com/no13bus/go-rubychina) - go-rubychina
+- [slimgo](https://github.com/gitwillsky/slimgo) - Slimgo web framework
+- [go_src_comment](https://github.com/polaris1119/go_src_comment) - Go语言学习园地：为Go语言源代码添加注释
+- [gleam](https://github.com/mikespook/gleam) - A operation cluster based on etcd
+- [go](https://github.com/golang/go) - The Go programming language
+- [colorstring](https://github.com/mitchellh/colorstring) - Go (golang) library for colorizing strings for terminal output.
+- [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
+- [goc2p](https://github.com/hyper-carrot/goc2p) - A example project for book 'Go Programming & Concurrency in Practice'.
+- [gochart](https://github.com/zieckey/gochart) - A chart plotting tool implemented by Golang and Highcharts.
+- [dog-tunnel](https://github.com/vzex/dog-tunnel) - p2p tunnel,(udp mode work with kcp,https://github.com/skywind3000/kcp)
+- [wetalk](https://github.com/beego/wetalk) - An open source project for Gopher community.
+- [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
+- [studygolang](https://github.com/studygolang/studygolang) - Go 语言中文网 | Golang中文社区 | Go语言学习园地 源码
+- [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - go port of shadowsocks
+- [gopm](https://github.com/gpmgo/gopm) - Go Package Manager (gopm) is a package manager and build tool for Go.
+- [md2min](https://github.com/fairlyblank/md2min) - convert markdown file to minimal html file
+- [100-gdb-tips](https://github.com/hellogcc/100-gdb-tips) - A collection of gdb tips. 100 maybe just mean many here.
+- [gor](https://github.com/wendal/gor) - Golang编写的静态博客引擎
+- [switch](https://github.com/gpmgo/switch) - Switch is a server that provides versioning caching and delivering Go packages service.
+- [goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
+- [martini](https://github.com/go-martini/martini) - Classy web framework for Go
+- [her](https://github.com/go-code/her) - a web framework for golang
+- [macaron](https://github.com/go-macaron/macaron) - Package macaron is a high productive and modular web framework in Go.
+- [gogs](https://github.com/gogits/gogs) - Gogs (Go Git Service) is a painless self-hosted Git service.
+- [sdc](https://github.com/insionng/sdc) - Sudochina.com  Q&A system
+- [fsnotify](https://github.com/fsnotify/fsnotify) - File system notifications for Go.
+- [go-rock-libraries-showcases](https://github.com/Unknwon/go-rock-libraries-showcases) - 《Go名库讲解》是一套针对 Google 出品的 Go 语言的第三方库进行评测讲解的集博客、示例与语音视频为一体的综合教程，适合完成学习完成《Go编程基础》教程的学习者。
+- [The-Golang-Standard-Library-by-Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example) - Golang标准库。对于程序员而言，标准库与语言本身同样重要，它好比一个百宝箱，能为各种常见的任务提供完美的解决方案。以示例驱动的方式讲解Golang的标准库。
+- [Go-in-Action](https://github.com/astaxie/Go-in-Action) - Trying to complete over 100 projects in various categories in golang.
+- [i18n](https://github.com/beego/i18n) - Package i18n is for app Internationalization and Localization.
+- [godep](https://github.com/tools/godep) - dependency tool for go
+- [gobot](https://github.com/hybridgroup/gobot) - Golang framework for robotics, drones, and the Internet of Things (IoT)
+- [GoStandardLibrary-Chinese](https://github.com/jemygraw/GoStandardLibrary-Chinese) - Golang的标准库中文版，由Go友团 (http://golanghome.com) 领导翻译。
+- [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - Golang push server cluster
+- [ztcp](https://github.com/nutzam/ztcp) - 一个发送 TCP 命令的工具
+- [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language
+- [md](https://github.com/modouwifi/md) - 魔豆路由器命令行客户端
+- [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
+- [the-way-to-go_ZH_CN](https://github.com/Unknwon/the-way-to-go_ZH_CN) - 《The Way to Go》中文译本，中文正式名《Go入门指南》
+- [gopher](https://github.com/jimmykuu/gopher) - Golang-China(golangtc.com) Website
+- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) - A golang ebook intro how to build a web with golang
+- [wetalk](https://github.com/jemygraw/wetalk) - An open source project for Gopher community.
+- [goimports](https://github.com/bradfitz/goimports) - (old repo) Tool to fix (add, remove) your Go imports automatically.
+
+## HTML 
+
+- [godesktopgui](https://github.com/peterhoward42/godesktopgui) - This program demonstrates the potential of Go to create a standalone desktop application with a sophisticated GUI.
+- [VeryNginx](https://github.com/alexazhou/VeryNginx) - A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards.
+- [pure](https://github.com/yahoo/pure) - A set of small, responsive CSS modules that you can use in every web project.
+- [uploader](https://github.com/danielm/uploader) - jQuery Ajax File uploader with progress bar and drag and drop
+- [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse) - 自己动手做聊天机器人教程
+- [DisqueBook](https://github.com/huangz1990/DisqueBook) - 《Disque 使用教程》
+- [kaiye.github.com](https://github.com/kaiye/kaiye.github.com) - 微信关注订阅号：imgXQB
+- [talks](https://github.com/gopher-beijing/talks) - All of the slides at Gopher Beijing Meetings.
+- [NPWG_zh](https://github.com/astaxie/NPWG_zh) - Network programming with Go 中文翻译版本
+- [codelf](https://github.com/unbug/codelf) - Organize your GitHub stars and repositories.Search over projects from GitHub, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project to find real-world usage variable names
+- [wsztrush.github.io](https://github.com/wsztrush/wsztrush.github.io) - 
+- [gardenia22.github.io](https://github.com/gardenia22/gardenia22.github.io) - Nanshu's Blog
+- [dotnet.github.io](https://github.com/dotnet/dotnet.github.io) - The source for the dotnet.github.io site
+- [ndpediter](https://github.com/zhaopengme/ndpediter) - ndpediter 一个支持向七牛传图片的 markdown 编辑器.
+- [gobyexample](https://github.com/everyx/gobyexample) - Go By Example 中文翻译
+- [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.
+- [notes](https://github.com/xiahouzuoxin/notes) - 研究生阶段的一些文章（技术、思考、读书笔记、日常琐事等）
+- [haojianzong.github.io](https://github.com/haojianzong/haojianzong.github.io) - My jekyll blog
+- [Onepay](https://github.com/wdkwdkwdk/Onepay) - 一键支付打赏按钮生成，绿色，方便，开源的收款主页替代方案
+
+## Haskell 
+
+- [pandoc](https://github.com/jgm/pandoc) - Universal markup converter
+
+## Java 
+
+- [weex](https://github.com/alibaba/weex) - A framework for building Mobile cross-platform UI
+- [xiaov](https://github.com/b3log/xiaov) - :bride_with_veil: Yet another QQ Bot. 又一个 QQ 聊天机器人，她的名字叫做小薇~
+- [nfs-rpc](https://github.com/liuxinglanyue/nfs-rpc) - copy from https://code.google.com/p/nfs-rpc/
+- [motan](https://github.com/weibocom/motan) - A remote procedure call(RPC) framework for rapid development of high performance distributed services.
+- [yanfs](https://github.com/raisercostin/yanfs) - Migrated from https://java.net/projects/yanfs/sources/svn/show
+- [yanfs](https://github.com/john24318/yanfs) - YANFS is the new WebNFS  (https://java.net/projects/yanfs)
+- [realtime-store](https://github.com/goodow/realtime-store) - Google Docs–style instant collaboration
+- [retrofit](https://github.com/square/retrofit) - Type-safe HTTP client for Android and Java by Square, Inc.
+- [sonarlint-cli](https://github.com/SonarSource/sonarlint-cli) - SonarLint for CLI
+- [symphony](https://github.com/b3log/symphony) - :notes: A real-time community forum written in Java. Java 实时社区论坛。
+- [disconf](https://github.com/knightliao/disconf) - Distributed Configuration Management Platform(分布式配置管理平台)
+- [jstorm](https://github.com/alibaba/jstorm) - Enterprise Stream Process Engine
+- [CNode-Material-Design](https://github.com/TakWolf/CNode-Material-Design) - CNode社区第三方Android客户端，原生App，Material Design风格，支持夜间模式
+- [cosbench](https://github.com/intel-cloud/cosbench) - a benchmark tool for cloud object storage service
+- [solo](https://github.com/b3log/solo) - :guitar: A blogging system written in Java, feel free to create your or your team own blog. 一个用 Java 实现的博客系统，为你或你的团队创建个博客吧。
+- [Android](https://github.com/smthapp/Android) - Android test app for newsmth.net
+- [afinal](https://github.com/yangfuhai/afinal) - Afinal是一个android的ioc，orm框架，内置了四大模块功能：FinalAcitivity,FinalBitmap,FinalDb,FinalHttp。通过finalActivity，我们可以通过注解的方式进行绑定ui和事件。通过finalBitmap，我们可以方便的加载bitmap图片，而无需考虑oom等问题。通过finalDB模块，我们一行代码就可以对android的sqlite数据库进行增删改查。通过FinalHttp模块，我们可以以ajax形式请求http数据。详情请通过以下网址查看。
+- [android-sdk-demos](https://github.com/leancloud/android-sdk-demos) - LeanCloud Android SDK Demos
+- [Wonderful2](https://github.com/bmob/Wonderful2) - 典型案例：基于Bmob的图片交友社区
+- [jsoup](https://github.com/jhy/jsoup) - jsoup: Java HTML Parser, with best of DOM, CSS, and jquery
+- [cnode-android](https://github.com/xingrz/cnode-android) - CNode client for Android
+- [Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh) - DEPRECATED
+- [world](https://github.com/openproject/world) - [DEPRECATED]打造系列百科世界:花界，养生世界...
+- [nicehair](https://github.com/lanyj189/nicehair) - 88
+- [BadgeView](https://github.com/stefanjauker/BadgeView) - An extended TextView that mimics the iOS Springboard 'badges'. It can be overlaid on any other item.
+- [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images on Android.
+- [QuickNews](https://github.com/tigerguixh/QuickNews) - this is a news to the client
+- [cocoseditor-java-samples](https://github.com/makeapp/cocoseditor-java-samples) - Cocos2d-Java基础教程聚合
+- [little-bear-dictionary](https://github.com/daimajia/little-bear-dictionary) - This will be the most powerful android dictionary!!!
+- [Android-Bootstrap](https://github.com/Bearded-Hen/Android-Bootstrap) - Bootstrap style widgets for Android, with Glyph Icons
+- [JianShuApp](https://github.com/AmongOthers/JianShuApp) - 简书App
+- [WifiChat](https://github.com/hillfly/WifiChat) - An instant-messaging app based on Android
+- [SlidingMenu](https://github.com/jfeinstein10/SlidingMenu) - An Android library that allows you to easily create applications with slide-in menus. You may use it in your Android apps provided that you cite this project and include the license in your app. Thanks!
+- [XListView-Android](https://github.com/Maxwin-z/XListView-Android) - ListView supports pull refresh and pull up to load more feature.
+- [android-bootstrap](https://github.com/AndroidBootstrap/android-bootstrap) - A template/bootstrap/boilerplate application that includes tons of great open source tools and frameworks.
+- [NumberProgressBar](https://github.com/daimajia/NumberProgressBar) - A beautiful, slim Android ProgressBar.
+
+## JavaScript 
+
+- [vue-devtools](https://github.com/vuejs/vue-devtools) - Chrome devtools extension for debugging Vue.js applications.
+- [vue-echarts](https://github.com/panteng/vue-echarts) - A custom directive for using Echarts in Vue.js apps.
+- [cPlayer](https://github.com/Copay/cPlayer) - A beautiful(maybe not) and clean(maybe not also) WEB Music Player by HTML5.
+- [netsound](https://github.com/chenminhua/netsound) - 网易云音药
+- [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) - 网易云音乐nodejs api
+- [vue-resource](https://github.com/vuejs/vue-resource) - The HTTP client for Vue.js
+- [qqbot](https://github.com/floatinghotpot/qqbot) - SmartQQ Robot and API Server, powered by node.js
+- [laverna](https://github.com/Laverna/laverna) - Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote.
+- [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web
+- [vue](https://github.com/vuejs/vue) - Simple yet powerful library for building modern web interfaces.
+- [webpack](https://github.com/webpack/webpack) - A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows to load parts for the application on demand. Through "loaders," modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.
+- [gohttpserver](https://github.com/codeskyblue/gohttpserver) - The best HTTP Static File Server, write with golang+vue
+- [SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile) - SUI Mobile (MSUI)是由阿里巴巴国际UED前端出品的移动端UI库，轻量精美
+- [wechat-subscriptor](https://github.com/jrainlau/wechat-subscriptor) - A webapp which collects WeChat subscriptions
+- [vue-sui-demo](https://github.com/eteplus/vue-sui-demo) - 用vue 和 SUI-Mobile 写了一个移动端demo，用来反馈学习vue的成果（禁用了SUI自带的路由，使用vue-router, vue-resource, webpack）[a web app written by vue & sui-mobile]
+- [vue-strap](https://github.com/yuche/vue-strap) - Bootstrap components built with Vue.js
+- [vue-tutorial](https://github.com/MeCKodo/vue-tutorial) - DICK-BooM-tutorial
+- [AngularJS-sublime-package](https://github.com/angular-ui/AngularJS-sublime-package) - AngularJS code completion, snippets, go to definition, quick panel search, and more.
+- [docs-generator](https://github.com/amazeui/docs-generator) - Amaze UI docs generator.
+- [starter-kit](https://github.com/amazeui/starter-kit) - Web Starter Kit for Amaze UI.
+- [kityformula-editor](https://github.com/fex-team/kityformula-editor) - SVG-based visualization Equation Editor
+- [TypeScript-Sublime-Plugin](https://github.com/Microsoft/TypeScript-Sublime-Plugin) - IO wrapper around TypeScript language services, allowing for easy consumption by editor plugins
+- [fis3](https://github.com/fex-team/fis3) - FIS3
+- [angular-filemanager](https://github.com/joni2back/angular-filemanager) - JavaScript HTML5 File Management Material Design Folder Explorer Navigator Browser Manager in AngularJS with CSS3 Responsive (with FTP in PHP / Java / Node)
+- [jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) - File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.
+- [liyu](https://github.com/egoist/liyu) - Urban dictionary in command line. 「俚语词典」
+- [nodejs-cantas](https://github.com/onepiecejs/nodejs-cantas) - Cantas is a real-time collaborative web application. Official repository
+- [pulpito](https://github.com/ceph/pulpito) - A dashboard for Ceph tests
+- [pybbs](https://github.com/tomoya92/pybbs) - 更好用的Java社区（论坛）
+- [medium-editor](https://github.com/yabwe/medium-editor) - Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution.
+- [openpack](https://github.com/lmk123/openpack) - Opens the browser when Webpack is ready serving your files.
+- [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor) - Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution in your Web browser
+- [CRUSHsim](https://github.com/xvillaneau/CRUSHsim) - A web-based tool for simulating the behaviour of a Ceph cluster when subjected to changes in rules or topology
+- [iBarn](https://github.com/zhimengzhe/iBarn) - iBarn SkyDrive provides file network backup, synchronization and sharing service. This system can resume upload and down file and if someone uploads one file when you upload it too, it needn't upload any more, directly upload success. You can choose file download to local or online collection. The recycle bin function to prevent users from accidentally deleted data. While providing customized services, and the two development. the intention to contact by email fanyalei@aliyun.com or QQ 451802973.iBarn网盘，功能强大，堪比百度网盘
+- [bmob-nodejs-module](https://github.com/bmob/bmob-nodejs-module) - Bmob Nodejs模块
+- [mui](https://github.com/dcloudio/mui) - 最接近原生APP体验的高性能框架
+- [graphite-web](https://github.com/graphite-project/graphite-web) - A highly scalable real-time graphing system
+- [statsd](https://github.com/etsy/statsd) - Daemon for easy but powerful stats aggregation
+- [csst](https://github.com/zswang/csst) - CSS Text Transformation
+- [dhtspider](https://github.com/alanyang/dhtspider) - Bittorrent dht network spider
+- [simplehooks](https://github.com/tyrchen/simplehooks) - simple github webhooks
+- [heaven-blog](https://github.com/zry656565/heaven-blog) - 博客《咀嚼之味》
+- [blog](https://github.com/gaohailang/blog) - blog of sivagao，每天一篇好文章~
+- [nativejson-benchmark](https://github.com/miloyip/nativejson-benchmark) - C/C++ JSON parser/generator benchmark
+- [faker.js](https://github.com/Marak/faker.js) - generate massive amounts of fake data in Node.js and the browser
+- [ethercalc](https://github.com/audreyt/ethercalc) - Node.js port of Multi-user SocialCalc
+- [apidoc](https://github.com/apidoc/apidoc) - RESTful web API Documentation Generator.
+- [mdwiki](https://github.com/Dynalon/mdwiki) - CMS/Wiki system using Javascript for 100% client side single page application using Markdown.
+- [cross-wxauth](https://github.com/leiroc/cross-wxauth) - 微信获取用户信息，接口提供给没有服务号的用户使用，或者个人使用；
+- [gitbook-cli](https://github.com/GitbookIO/gitbook-cli) - GitBook's command line interface
+- [solar-rain](https://github.com/rainyear/solar-rain) - Solarized dark ghost theme
+- [devdocs-wrapper](https://github.com/yutaodou/devdocs-wrapper) - A simple wrapper for http://devdocs.io with Electron
+- [react-native-macos](https://github.com/ptmt/react-native-macos) - React Native for macOS
+- [react](https://github.com/facebook/react) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- [redislock](https://github.com/danielstjules/redislock) - Node distributed locking using redis
+- [cloud-filesystem](https://github.com/piglione73/cloud-filesystem) - A cloud filesystem. Supports locking and transactions.  Can be backed by an S3 bucket and is not affected by eventual consistency issues.  Can be mounted in Linux and Windows.
+- [hugcoday.github.com](https://github.com/hugcoday/hugcoday.github.com) - JSBlog 纯JavaScript博客
+- [Gokotta](https://github.com/Zhangdroid/Gokotta) - A simple music player built by electron and vue
+- [tinycode](https://github.com/2293/tinycode) - Big data, Tiny code! 《小代码》电子期刊
+- [jstips](https://github.com/sjfkai/jstips) - This is about one JS tip every day!
+- [koa-generator-examples](https://github.com/17koa/koa-generator-examples) - 一起学koa
+- [cnblog-electron](https://github.com/LunaGao/cnblog-electron) - cnblogs electron客户端
+- [wangEditor](https://github.com/wangfupeng1988/wangEditor) - wangEditor —— 轻量级web富文本框
+- [es6tutorial](https://github.com/ruanyf/es6tutorial) - 《ECMAScript 6入门》是一本开源的JavaScript语言教程，全面介绍ECMAScript 6新增的语法特性。
+- [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes.
+- [github-hovercard](https://github.com/Justineo/github-hovercard) - Neat user/repo/issue hovercards for GitHub.
+- [sherlock](https://github.com/phodal/sherlock) - Skill Tree Sherlock
+- [gitbook-pdf](https://github.com/GitbookIO/gitbook-pdf) - PDF Generator for GitBook
+- [flaskblog](https://github.com/sixu05202004/flaskblog) - person blog powered by flask
+- [Front-End-Standards](https://github.com/hzlzh/Front-End-Standards) - 适用于小团队的前端规范
+- [hacker-scripts](https://github.com/NARKOZ/hacker-scripts) - Based on a true story
+- [linux-dash](https://github.com/afaqurk/linux-dash) - A beautiful web dashboard for Linux
+- [dojo](https://github.com/dojo/dojo) - The Dojo Toolkit core library. Please submit bugs to https://bugs.dojotoolkit.org/
+- [zrender](https://github.com/ecomfe/zrender) - A lightweight canvas library which providing 2d draw for ECharts
+- [esl](https://github.com/ecomfe/esl) - enterprise standard loader
+- [echarts](https://github.com/ecomfe/echarts) - A powerful, interactive charting and visualization library for browser
+- [itranswarp.js](https://github.com/michaelliao/itranswarp.js) - Full-featured CMS including blog, wiki, discussion, etc. powered by Nodejs.
+- [wide](https://github.com/b3log/wide) - :fireworks: A Web-based IDE for Teams using Go programming language/Golang.
+- [inkscope](https://github.com/inkscope/inkscope) - inkScope is  a ceph visualization and admin interface
+- [platform](https://github.com/mattermost/platform) - Open source Slack-alternative in Golang and React - Mattermost
+- [editor.md](https://github.com/pandao/editor.md) - The open source embeddable online markdown editor (component).
+- [v2ex.k](https://github.com/kokdemo/v2ex.k) - Get a better UI of V2EX.
+- [markdown-plus](https://github.com/tylingsoft/markdown-plus) - Markdown editor with extra features.
+- [gobuild3](https://github.com/gobuild-old/gobuild3) - golang online build 3rd version
+- [ceph-dash](https://github.com/Crapworks/ceph-dash) - Flask based api / dashboard for viewing a ceph clusters overall health status
+- [GA_engine](https://github.com/pikeszfish/GA_engine) - 遗传算法实现多个三角形拟合图片
+- [simple](https://github.com/isnowfy/simple) - A static blog generator with a single static page
+- [leanote](https://github.com/leanote/leanote) - Not Just A Notepad! (golang + mongodb) http://leanote.org
+- [ace](https://github.com/ajaxorg/ace) - Ace (Ajax.org Cloud9 Editor)
+- [microblog](https://github.com/tonyzhan/microblog) - simple microblog power by express4 and jade template
+- [font-spider](https://github.com/aui/font-spider) - Smart webfont compression and format conversion tool
+- [cnodejs-ionic](https://github.com/lanceli/cnodejs-ionic) - The mobile app of https://cnodejs.org, web demo https://lanceli.github.io/cnodejs-ionic
+- [editor-legacy](https://github.com/GitbookIO/editor-legacy) - Legacy editor for writing books using GitBook (for Windows, Mac and Linux)
+- [cssgrace](https://github.com/cssdream/cssgrace) - 从今天起，写简单优雅面向未来的 CSS。From now on,writing brief,elegant,future-oriented CSS.
+- [gitblog-io.github.io](https://github.com/gitblog-io/gitblog-io.github.io) - Post your article to github pages with ease
+- [SimpleSheetMusic.js](https://github.com/ee0703/SimpleSheetMusic.js) - Simple player that use pure javascript to play sheet music
+- [flarum](https://github.com/justjavac/flarum) - Flarum - 优雅自由的PHP轻社区
+- [v2ex.ext](https://github.com/jkeylu/v2ex.ext) - 
+- [simditor](https://github.com/mycolorway/simditor) - An Easy and Fast WYSIWYG Editor
+- [coney](https://github.com/coneycode/coney) - my theme for hexo named coney
+- [nodeclub](https://github.com/cnodejs/nodeclub) - :baby_chick:Nodeclub 是使用 Node.js 和 MongoDB 开发的社区系统
+- [node-speaker](https://github.com/TooTallNate/node-speaker) - Output PCM audio data to the speakers
+- [node](https://github.com/nodejs/node) - Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:
+- [ionic-cnodejs](https://github.com/saionjisekai/ionic-cnodejs) - Application for Android or IOS with ionic framework
+- [douban.fm](https://github.com/guo-yu/douban.fm) - a tiny and smart cli player of douban.fm in Node.js
+- [emmet-sublime](https://github.com/sergeche/emmet-sublime) - Emmet for Sublime Text
+- [liumeijun.com](https://github.com/loo2k/liumeijun.com) - 生日礼物
+- [CoffeeScript-Compiler-for-Windows](https://github.com/alisey/CoffeeScript-Compiler-for-Windows) - Standalone executable that compiles *.coffee to *.js. Options are compatible with the original coffee command.
+- [gitbook](https://github.com/GitbookIO/gitbook) - Modern book format and toolchain using Git and Markdown
+- [GoCMS](https://github.com/zzdboy/GoCMS) - 基于Revel，Jquery, Xorm开发的内容管理系统
+- [android-training-course-in-chinese](https://github.com/kesenhoo/android-training-course-in-chinese) - Android官方培训课程中文版
+- [jsgen](https://github.com/zensh/jsgen) - JsGen is a next generation，free, open source web software that you can generate a powerful website, such as blog, forum, etc. It is coded by pure JavaScript, based on Node.js, AngularJS, MongoDB.
+- [fks](https://github.com/JacksonTian/fks) - 前端技能汇总 Frontend Knowledge Structure
+- [zenpress](https://github.com/insionng/zenpress) - Zenpress is a cms system of written in golang
+- [google-api-nodejs-client](https://github.com/google/google-api-nodejs-client) - Google's officially supported Node.js client library for accessing Google APIs. Support for authorization and authentication with OAuth 2.0, API Keys and JWT (Service Tokens) is included. API Reference Docs: http://google.github.io/google-api-nodejs-client/
+- [cocos-docs](https://github.com/chukong/cocos-docs) - Documentation for Cocos2d-x, Cocos2d-html5 and Cocos Studio
+- [to-markdown](https://github.com/domchristie/to-markdown) - An HTML to Markdown converter written in JavaScript
+- [WasAPlayer](https://github.com/sutar/WasAPlayer) - DEPRECATED
+- [N-blog](https://github.com/nswbmw/N-blog) - 使用 Express + MongoDB 搭建多人博客
+- [qn](https://github.com/node-modules/qn) - Another qiniu http://docs.qiniu.com/api/ API client for Node.js.
+- [qiniu.js](https://github.com/iwillwen/qiniu.js) - Qiniu Cloud Storage SDK for Client-side JavaScript
+- [wx](https://github.com/baoshan/wx) - (minimalist) WeChat Middleware for Express.js
+- [mt](https://github.com/mtjs/mt) - mt code
+- [cocoseditor-flappybird](https://github.com/makeapp/cocoseditor-flappybird) - FlappyBird demo made in JavaScript，base on Cocos2d-x and Cocos2d-html5，Develop by CocosEditor， Runs on  Android, iOS，Html5 & PC.
+- [foundation-sites](https://github.com/zurb/foundation-sites) - The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.
+- [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) - Semantic is a UI component framework based around useful principles from natural language.
+- [HTTP_TOOL](https://github.com/wewoor/HTTP_TOOL) - 
+
+## Jupyter Notebook 
+
+- [parallel_ml_tutorial](https://github.com/ogrisel/parallel_ml_tutorial) - Tutorial on scikit-learn and IPython for parallel machine learning
+
+## Makefile 
+
+- [developer](https://github.com/phodal/developer) - developer roadmap. use growth https://github.com/phodal/growth replace this
+
+## Objective-C 
+
+- [ViFinder](https://github.com/likaci/ViFinder) - Vim like Keybinding FileManager for OS X
+- [DSLolita](https://github.com/sam408130/DSLolita) - 模仿微博，有评论，私聊，发微博，点赞等功能
+- [iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) - iOS9适配系列教程（iOS9开发学习交流群：529753706）
+- [TSA](https://github.com/cht8687/TSA) - Using React-Native and Redux to create the TSA $1.4 million iOS and Android app
+- [MVVMReactiveCocoa](https://github.com/leichunfeng/MVVMReactiveCocoa) - GitBucket iOS App
+- [Pocket-ObjC-SDK](https://github.com/Pocket/Pocket-ObjC-SDK) - Headless iOS/Mac SDK for saving stuff to Pocket.
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, OS X, watchOS, and tvOS.
+- [QiniuSdk_v7_demo](https://github.com/summerblue/QiniuSdk_v7_demo) - Little Demo Code for Qiniu v7.* SDK https://github.com/qiniu/objc-sdk
+- [UAAppReviewManager](https://github.com/UrbanApps/UAAppReviewManager) - UAAppReviewManager is a simple and lightweight App review prompting tool for iOS and Mac App Store apps. It's Appirater all grown up, ready for primetime.
+- [BlackCookbook](https://github.com/Dwarfartisan/BlackCookbook) - Some Code Samples
+
+## Objective-C++ 
+
+- [textmate](https://github.com/textmate/textmate) - TextMate is a graphical text editor for OS X 10.8+
+
+## Others 
+
+- [NeoReader](https://github.com/nihgwu/NeoReader) - one reader for all
+- [react-native-docs-cn](https://github.com/reactnativecn/react-native-docs-cn) - React Native中文文档
+- [Android-Best-Practices](https://github.com/tianzhijiexian/Android-Best-Practices) - Android最佳实践示例
+- [growth2](https://github.com/growth-studio/growth2) - Temporary home of the Growth 2 code base
+- [Miscellaneous](https://github.com/ahrencode/Miscellaneous) - Miscellaneous Odds and Ends from Ahren Code
+- [beecloud-webhook](https://github.com/beecloud/beecloud-webhook) - BeeCloud Webhook
+- [shadowsocks](https://github.com/mengskysama/shadowsocks) - A fast tunnel proxy that helps you bypass firewalls
+- [Developing-iOS-9-Apps-with-Swift](https://github.com/SwiftGGTeam/Developing-iOS-9-Apps-with-Swift) - Stanford 公开课，Developing iOS 9 Apps with Swift 字幕翻译
+- [device-mapper-multipath](https://github.com/gooselinux/device-mapper-multipath) - Tools to manage multipath devices using device-mapper
+- [conference](https://github.com/gopherchina/conference) - 
+- [docs](https://github.com/spmjs/docs) - Documents for spm 3.6 and above.
+- [graphviz-scripts](https://github.com/abruzzi/graphviz-scripts) - Some dot files for graphviz
+- [hosts](https://github.com/racaljk/hosts) - :statue_of_liberty:最新可用的google hosts文件。镜像：
+- [study-path](https://github.com/joebew42/study-path) - A study path about Clean Code, TDD, Legacy Code, Refactoring and IDD
+- [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
+- [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) -  A curated list of awesome applications, softwares, tools and shiny things for macOS.
+- [go_command_tutorial](https://github.com/hyper-carrot/go_command_tutorial) - Golang command tutorial in Chinese.
+- [awesome-c-cn](https://github.com/jobbole/awesome-c-cn) - C 资源大全中文版，包括了：构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库等。
+- [documents](https://github.com/chenshuo/documents) - 
+- [Lintcode](https://github.com/stevenlordiam/Lintcode) - My solution of LintcodeOJ
+- [Leetcode](https://github.com/stevenlordiam/Leetcode) - My solution of LeetcodeOJ
+- [QmlBook-In-Chinese](https://github.com/cwc1987/QmlBook-In-Chinese) - QML Book In Chinese
+- [pythontutorial3](https://github.com/sixu05202004/pythontutorial3) - python 3.5.1 tutorial中文版
+- [dev-blog](https://github.com/nixzhu/dev-blog) - 翻译、开发心得或学习笔记
+- [doc](https://github.com/open-falcon/doc) - open-falcon documents
+- [open-falcon](https://github.com/XiaoMi/open-falcon) - 互联网企业级监控系统
+- [toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [awesome-go-China](https://github.com/hyper-carrot/awesome-go-China) - A curated list of awesome Go frameworks, libraries and software written by Ethnic Chinese.
+- [swagger.io](https://github.com/swagger-api/swagger.io) - The content of swagger.io
+- [hugoThemes](https://github.com/spf13/hugoThemes) - All Themes Hugo
+- [StudyBooks](https://github.com/lizhenghn123/StudyBooks) - 我的学习资料，包括书籍、网址等
+- [docs](https://github.com/gopherchina/docs) - gopherchina website docs
+- [android-tech-frontier](https://github.com/hehonghui/android-tech-frontier) - 一个定期翻译国外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目
+- [react-native-guide](https://github.com/reactnativecn/react-native-guide) - React Native指南汇集了各类react-native学习资源、开源App和组件
+- [blog](https://github.com/ma6174/blog) - 博客
+- [Developing_iOS_8_Apps_With_Swift](https://github.com/SwiftGGTeam/Developing_iOS_8_Apps_With_Swift) - Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译
+- [Qix](https://github.com/ty4z2008/Qix) - Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang
+- [NetEase-MusicBox](https://github.com/bluetomlee/NetEase-MusicBox) - 网易云音乐命令行版本，排行榜，搜索，精选歌单，登录，DJ节目，快速打碟，本地收藏歌单
+- [xcode-themes](https://github.com/tursunovic/xcode-themes) - My collection of Xcode themes
+- [github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - A list of cool features of Git and GitHub.
+- [nginx-resources](https://github.com/fcambus/nginx-resources) - A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine
+- [WeCenterDoc](https://github.com/wecenter/WeCenterDoc) - WeCenter 文档
+- [gopher-vector](https://github.com/golang-samples/gopher-vector) - Vector data of gopher
+- [gopher-stickers](https://github.com/tenntenn/gopher-stickers) - gopher stickers
+- [show-me-the-code](https://github.com/Yixiaohan/show-me-the-code) - Python 练习册，每天一个小程序
+- [Welcome-to-Swift](https://github.com/CocoaChina-editors/Welcome-to-Swift) - Swift中文文档
+- [Shop](https://github.com/bmob/Shop) - 典型案例：基于Bmob的资讯平台--HBUT版(Android)
+- [wiki](https://github.com/greatfire/wiki) - 
+- [ele_demo](https://github.com/tigerguixh/ele_demo) - 仿【饿了么】订餐软件的一个demo
+- [http-api-design](https://github.com/interagent/http-api-design) - HTTP API design guide extracted from work on the Heroku Platform API
+- [javascript-style-guide](https://github.com/adamlu/javascript-style-guide) - JavaScript规范
+- [papers](https://github.com/evilcos/papers) - my open papers
+- [lime](https://github.com/limetext/lime) - Open source API-compatible alternative to the text editor Sublime Text
+- [chinese_docker](https://github.com/widuu/chinese_docker) - docker中文文档，docker Chinese Documation
+- [slimpp](https://github.com/slimpp/slimpp) - Simple, Light Instant Messaging and Presence Protocol
+- [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - A curated list of awesome awesomeness
+- [fsnotify](https://github.com/Comdex/fsnotify) - File system notification for Go
+- [Go-Blog-In-Action](https://github.com/achun/Go-Blog-In-Action) - Go语言博客实践
+- [go-internals](https://github.com/tiancaiamao/go-internals) - dig into implemention of the go programming language
+- [wonderfogo](https://github.com/wonderfo/wonderfogo) - 最近对Go语言很感兴趣，所以整理相关资料，呵呵
+- [30min_guides](https://github.com/qinjx/30min_guides) - 覃健祥的学习笔记，各种几十分钟入门的文档
+- [doc-modouwifi-api](https://github.com/modouwifi/doc-modouwifi-api) - 魔豆路由器 HTTP API 文档
+- [Cubian](https://github.com/cubieplayer/Cubian) - Debian for Cubieboard
+- [book](https://github.com/qyuhen/book) - 学习笔记
+
+## PHP 
+
+- [shudong-share](https://github.com/HFO4/shudong-share) - 树洞外链
+- [fis](https://github.com/fex-team/fis) - Front-end Integrated Solution - 前端集成解决方案， 最新版请进入 FIS3 https://github.com/fex-team/fis3
+- [TeamToy](https://github.com/easychen/TeamToy) - 企业协同办公工具TeamToy2（多人TODO版）官方Git源，每次版本发布时从SAE同步。
+- [Ourls](https://github.com/takashiki/Ourls) - url shorten service/短网址服务
+- [9IPHP](https://github.com/9IPHP/9IPHP) - 响应式WordPress主题
+- [docker-training](https://github.com/nicescale/docker-training) - cSphere Docker training code
+- [startbbs](https://github.com/startbbs/startbbs) - startbbs is a free, open-source, light weight forum software package built with PHP and MySQL
+- [MiniCMS](https://github.com/idada/MiniCMS) - 至简的个人网站内容管理系统
+- [composer](https://github.com/composer/composer) - Dependency Manager for PHP
+- [AppStore](https://github.com/chekun/AppStore) - The missing plugins store for Typecho!
+- [manong](https://github.com/nemoTyrant/manong) - 码农周刊整理
+- [php-langspec](https://github.com/php/php-langspec) - PHP Language Specification
+- [typecho](https://github.com/typecho/typecho) - A PHP Blogging Platform. Simple and Powerful.
+- [parsedown](https://github.com/erusev/parsedown) - Markdown Parser in PHP
+- [Requests](https://github.com/rmccue/Requests) - Requests for PHP is a humble HTTP request library. It simplifies how you interact with other sites and takes away all your worries.
+
+## Perl 
+
+- [ci-tests](https://github.com/nfs-ganesha/ci-tests) - Continuous integration helpers for nfs-ganesha
+- [rtsp-server](https://github.com/revmischa/rtsp-server) - Lightweight RTSP/RTP streaming media server
+
+## Python 
+
+- [filebeat.py](https://github.com/iyaozhen/filebeat.py) - Python版Filebeat
+- [qqbot](https://github.com/pandolia/qqbot) - QQBot: A conversation robot base on Tencent's SmartQQ
+- [iScript](https://github.com/PeterDing/iScript) - 各种脚本 -- 关于 虾米 xiami.com, 百度网盘 pan.baidu.com, 115网盘 115.com, 网易音乐 music.163.com, 百度音乐 music.baidu.com, 360网盘/云盘 yunpan.cn, 视频解析 flvxz.com, bt torrent ↔ magnet, ed2k 搜索, tumblr 图片下载, unzip
+- [bcloud](https://github.com/LiuLang/bcloud) - 百度网盘的linux桌面客户端
+- [starred](https://github.com/maguowei/starred) - creating your own Awesome List used GitHub stars!
+- [fusepy](https://github.com/terencehonles/fusepy) - Simple ctypes bindings for FUSE
+- [falcon-monit-scripts](https://github.com/iambocai/falcon-monit-scripts) - 用于小米开源监控系统open-falcon的监控采集脚本集合
+- [paddles](https://github.com/ceph/paddles) - RESTful API to store (and report) on Ceph tests
+- [pyvim](https://github.com/jonathanslenders/pyvim) - Pure Python Vim clone.
+- [pymux](https://github.com/jonathanslenders/pymux) - A terminal multiplexer (like tmux) in Python
+- [pexpect](https://github.com/pexpect/pexpect) - A Python module for controlling interactive programs in a pseudo-terminal
+- [GitSavvy](https://github.com/divmain/GitSavvy) - Full git and GitHub integration with Sublime Text 3.
+- [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) - Library for building powerful interactive command lines in Python
+- [http-prompt](https://github.com/eliangcs/http-prompt) - HTTPie + prompt_toolkit = an interactive command-line HTTP client featuring autocomplete and syntax highlighting
+- [MarkDownHelper](https://github.com/wuchangfeng/MarkDownHelper) - Drop more than one img to .py file and it will auto run and generate markdown url in txt file.
+- [crushmap](https://github.com/qakapil/crushmap) - simple python tool to visualise a ceph crushmap using graphviz
+- [source-code-pro](https://github.com/adobe-fonts/source-code-pro) - Monospaced font family for user interface and coding environments
+- [jolla](https://github.com/salamer/jolla) - Python Web Framework
+- [ohmyrepo](https://github.com/no13bus/ohmyrepo) - use webhook to analysis that who star your repository,  where are they and show the top 5 followers. And you can fellow some users.
+- [waf](https://github.com/waf-project/waf) - The Waf build system
+- [ConfigArgParse](https://github.com/bw2/ConfigArgParse) - A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.
+- [Diamond](https://github.com/python-diamond/Diamond) - Diamond is a python daemon that collects system metrics and publishes them to Graphite (and others). It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for implementing custom collectors for gathering metrics from almost any source.
+- [Diamond](https://github.com/BrightcoveOS/Diamond) - 
+- [interpy-zh](https://github.com/eastlakeside/interpy-zh) - 《Python进阶》（Intermediate Python 中文版）
+- [shellpy](https://github.com/lamerman/shellpy) - A tool for convenient shell scripting in python
+- [ceph-qa-suite](https://github.com/ceph/ceph-qa-suite) - Suite of Ceph QA tests to run with Teuthology
+- [redlock-py](https://github.com/SPSCommerce/redlock-py) - Redis distributed locks in Python
+- [teuthology](https://github.com/ceph/teuthology) - Ceph test suite
+- [viking](https://github.com/maguowei/viking) - viking
+- [trash-cli](https://github.com/andreafrancia/trash-cli) - Command line interface to the freedesktop.org trashcan.
+- [httpie](https://github.com/jkbrzt/httpie) - CLI HTTP client, user-friendly curl replacement with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.
+- [thefuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
+- [kechenggezi-Spider](https://github.com/xinqiu/kechenggezi-Spider) - 第一次写爬虫，爬课程格子的校花榜，比较简陋，没用多线程。
+- [regal](https://github.com/boylegu/regal) - A/B Testing or publish smart grouping engine
+- [liaoxuefeng-tutorials](https://github.com/youfou/liaoxuefeng-tutorials) - 用 Python 自动整理廖雪峰的 Git, Python 2/3, JavaScript 教程，保存为 HTML 格式，可用于制作电子书
+- [Charon](https://github.com/forrestchang/Charon) - Another Scheme interpreter.
+- [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends) - 查看被删的微信好友
+- [crmsh](https://github.com/ClusterLabs/crmsh) - Command-line interface for High-Availability cluster management on GNU/Linux systems.
+- [pcs](https://github.com/ClusterLabs/pcs) - Pacemaker command line interface and GUI
+- [MySQLdb1](https://github.com/farcepest/MySQLdb1) - MySQL database connector for Python (legacy version)
+- [sftpclone](https://github.com/unbit/sftpclone) - A tool for cloning/syncing a local directory tree with an SFTP server
+- [python3-cookbook](https://github.com/yidao620c/python3-cookbook) - 《Python Cookbook》 3rd Edition Translation
+- [apt-vim](https://github.com/egalpin/apt-vim) - Fully-automated, Cross-platform Plugin Manager for Vim
+- [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines) - The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
+- [alauda-CLI](https://github.com/alaudacloud/alauda-CLI) - alauda command line interface
+- [download_nvshen_so](https://github.com/liuxu0315/download_nvshen_so) - Download images from nvshen.so.
+- [shadowsocks](https://github.com/shadowsocks/shadowsocks) - 
+- [remoto](https://github.com/alfredodeza/remoto) - Remote commands (or processes calls) in Python.
+- [virtual-storage-manager](https://github.com/01org/virtual-storage-manager) - 
+- [Algorithm-Interview](https://github.com/wuchong/Algorithm-Interview) - 经典算法&面试题的源代码实现项目
+- [Stino](https://github.com/Robot-Will/Stino) - A Sublime Text Plugin for Arduino
+- [pydoubanfm](https://github.com/qiuxiang/pydoubanfm) - Python 实现的豆瓣FM客户端
+- [fuck12306](https://github.com/andelf/fuck12306) - 12306 图片验证码识别测试
+- [ceph-deploy](https://github.com/ceph/ceph-deploy) - Deploy Ceph with minimal infrastructure, using just SSH access
+- [musicbox](https://github.com/darknessomi/musicbox) - 网易云音乐命令行版本
+- [douban.fm](https://github.com/taizilongxu/douban.fm) - :radio: douban.fm based on Python
+- [AlfredWorkflow.com](https://github.com/hzlzh/AlfredWorkflow.com) - A public Collection of Alfred Workflows.
+- [NetEase-MusicBox](https://github.com/yakiang/NetEase-MusicBox) - 网易云音乐命令行版本，排行榜，搜索，精选歌单，登录，DJ节目，快速打碟，本地收藏歌单
+- [awesome-flask-todo](https://github.com/defshine/awesome-flask-todo) - Build  web app based on Flask and MongoEngine
+- [pyfm](https://github.com/skyline75489/pyfm) - 使用Python编写的豆瓣FM(douban.fm)命令行播放器
+- [NeteaseCloudMusic](https://github.com/yanunon/NeteaseCloudMusic) - 网易云音乐
+- [requests](https://github.com/kennethreitz/requests) - Python HTTP Requests for Humans™
+- [douban-music-downloader](https://github.com/lijiejie/douban-music-downloader) - A douban.fm  music downloader
+- [download_doubanfm](https://github.com/isnowfy/download_doubanfm) - download doubanfm favourite songs
+
+## Ruby 
+
+- [ceph-cookbook](https://github.com/ceph/ceph-cookbook) - Chef cookbooks for Ceph
+- [warden](https://github.com/cloudfoundry/warden) - Cloud Foundry - the open platform as a service project
+- [warden](https://github.com/hassox/warden) - General Rack Authentication Framework
+- [ronn](https://github.com/rtomayko/ronn) - the opposite of roff
+- [jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll is a blog-aware, static site generator in Ruby
+- [progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - See 2nd edition at progit2
+- [fpm](https://github.com/jordansissel/fpm) - Effing package management! Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity.
+- [logstash](https://github.com/elastic/logstash) - logstash - transport and process your logs, events, or other data
+- [xcode-themes](https://github.com/hdoria/xcode-themes) - Color themes for Xcode
+- [discourse](https://github.com/discourse/discourse) - A platform for community discussion. Free, open, simple.
+- [homebrew-dupes](https://github.com/Homebrew/homebrew-dupes) - :two_women_holding_hands: System duplicate formulae for the Homebrew package manager
+- [jekyll-bootstrap](https://github.com/rose1988c/jekyll-bootstrap) - The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.
+- [homebrew-php](https://github.com/Homebrew/homebrew-php) - :earth_americas: PHP OS X formulae for the Homebrew package manager
+- [legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - :skull: The former home of :beer: the missing package manager for OS X
+- [rabel](https://github.com/daqing/rabel) - A powerful web community software to manage people, relationship and information
+
+## Rust 
+
+- [RustPrimer](https://github.com/rustcc/RustPrimer) - The Rust primer for beginners. We need native English speaker help us modify the translation.
+- [Tickeys](https://github.com/yingDev/Tickeys) - Instant audio feedback for typing. For MacOS X. (Rust)
+
+## Scheme 
+
+- [sicp](https://github.com/jiacai2050/sicp) - SICP 读书笔记，习题解答
+
+## Shell 
+
+- [docker-nfs-client](https://github.com/flaccid/docker-nfs-client) - A Docker image for a light NFS client
+- [osxfuse](https://github.com/osxfuse/osxfuse) - FUSE for OS X extends OS X by adding support for FUSE file systems
+- [pincpus](https://github.com/prozeta/pincpus) - Script for automatic pinning of ceph osd daemons to numa node via cgroups
+- [balog](https://github.com/4679/balog) - 纯bash实现的静态博客生成器
+- [sourcetree-custom-actions](https://github.com/knalli/sourcetree-custom-actions) - A collection of SourceTree CustomActions.
+- [githook](https://github.com/gnailuy/githook) - Github Hook Service for gnailuy.com
+- [flex-bison-cpp-example](https://github.com/bingmann/flex-bison-cpp-example) - Flex Bison C++ Template/Example
+- [libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
+- [NodeOS](https://github.com/NodeOS/NodeOS) - Lightweight operating system using Node.js as userspace
+- [daemon-dog](https://github.com/qitaichen/daemon-dog) - This is the script to monitor deamon program. If the program die, The script will restart it.
+- [resource-agents](https://github.com/ClusterLabs/resource-agents) - Combined repository of OCF agents from the RHCS and Linux-HA projects
+- [dotnet-docker](https://github.com/dotnet/dotnet-docker) - This repo contains the base Docker images for working with .NET Core and the .NET Core Tools.
+- [ceph-zabbix](https://github.com/thelan/ceph-zabbix) - Zabbix plugin for Ceph monitoring
+- [heroku-buildpack-go](https://github.com/kr/heroku-buildpack-go) - Go support for Heroku
+- [python-cookbook](https://github.com/dabeaz/python-cookbook) - Code samples from the "Python Cookbook, 3rd Edition", published by O'Reilly & Associates, May, 2013.
+- [elk-docker](https://github.com/spujadas/elk-docker) - Elasticsearch, Logstash, Kibana (ELK) Docker image
+- [ceph-docker](https://github.com/ceph/ceph-docker) - Docker files and images to run Ceph in containers
+- [rabian-build](https://github.com/radxa/rabian-build) - Build scripts for Rabian
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A delightful community-driven framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+- [xgo](https://github.com/karalabe/xgo) - Go CGO cross compiler
+- [gvm](https://github.com/moovweb/gvm) - Go Version Manager
+
+## Smarty 
+
+- [ifconfig](https://github.com/missdeer/ifconfig) - Yet Another ifconfig inspired by ifconfig.me
+
+## Swift 
+
+- [Amidakuji_Swift](https://github.com/yrq110/Amidakuji_Swift) - A little game written in swift
+- [Regex](https://github.com/crossroadlabs/Regex) - Regular expressions for swift
+- [vapor](https://github.com/vapor/vapor) - A web framework and server for Swift that works on macOS and Ubuntu.
+- [swift-package-manager](https://github.com/apple/swift-package-manager) - The Package Manager for the Swift Programming Language
+- [SwiftGuide](https://github.com/ipader/SwiftGuide) - 这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。http://dev.swiftguide.cn
+- [GolangStudy](https://github.com/sxyx2008/GolangStudy) - 用Swift写的Golang学习App。使用蒲公英应用平台一键安装到设备
+- [SwiftWeather](https://github.com/JakeLin/SwiftWeather) - SwiftWeather is an iOS weather app developed in Swift 2. The app has been actively upgrading to adopt the latest features of iOS and Swift language.
+- [SwiftFlickrApp](https://github.com/synboo/SwiftFlickrApp) - Flickr popular photo viewer with Swift
+- [HackerNews](https://github.com/amitburst/HackerNews) - A Hacker News reader iOS app written in Swift.
+- [swift-2048](https://github.com/austinzheng/swift-2048) - 2048 for Swift
+
+## TeX 
+
+- [ThinkPython2-CN](https://github.com/bingjin/ThinkPython2-CN) - 《Think Python 2e》最新版中文翻译，持续更新中。
+- [thinkpython-cn](https://github.com/carfly/thinkpython-cn) - ThinkPython's Chinese Translation
+- [ThinkPython2](https://github.com/AllenDowney/ThinkPython2) - LaTeX source and supporting code for Think Python, 2nd edition, by Allen Downey.
+- [the-little-go-book](https://github.com/karlseguin/the-little-go-book) - 
+- [Learning-Go-zh-cn](https://github.com/mikespook/Learning-Go-zh-cn) - 一本学习 Go 语言的免费电子书。
+
+## TypeScript 
+
+- [vscode](https://github.com/Microsoft/vscode) - Visual Studio Code
+- [vscode-go](https://github.com/Microsoft/vscode-go) - An extension for VS Code which provides support for the Go language.
+- [Sigil](https://github.com/Sigil-Ebook/Sigil) - Sigil is a multi-platform EPUB ebook editor
+- [TypeScriptSamples](https://github.com/Microsoft/TypeScriptSamples) - Samples for TypeScript
+
+## VimL 
+
+- [last256](https://github.com/sk1418/last256) - A vim dark colorscheme based on vim-hybrid
+- [mydotfiles](https://github.com/youngsterxyf/mydotfiles) - 各种配置文件
+- [nerdtree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for vim.
+- [vim-pathogen](https://github.com/tpope/vim-pathogen) - pathogen.vim: manage your runtimepath
+- [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+- [vim](https://github.com/ma6174/vim) - vim配置文件和插件
+
+## Vue 
+
+- [vux](https://github.com/airyland/vux) - Mobile web UI Components based on Vue and WeUI. Be Cool with Vue & WeUI.
+- [eme](https://github.com/egoist/eme) - Elegant Markdown Editor.
+
+## Yacc 
+
+- [flex-bison-example](https://github.com/meyerd/flex-bison-example) - A simple example demonstrating a calculator written with flex/bison
 
 
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [bjq1016@126.com](https://github.com/bjq1016@126.com) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [itfanr](https://github.com/itfanr) has waived all copyright and related or neighboring rights to this work.
 
